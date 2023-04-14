@@ -1,5 +1,5 @@
 ---
-- hosts: My_Group
+- hosts: localhost
   tasks:
     - name: Install LAMP stack using Ansible
       become: yes
